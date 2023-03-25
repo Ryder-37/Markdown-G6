@@ -133,3 +133,9 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 ![Extended Syntax 1](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Extended%20Syntax%201.png?raw=true)
 
 ![Extended Syntax 2](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Extended%20Syntax%202.png?raw=true)
+
+## **References**
+
+* [Experience League](https://experienceleague.adobe.com/docs/contributor/contributor-guide/writing-essentials/markdown.html?lang=en)
+  
+* [Document 360](https://document360.com/blog/introductory-guide-to-markdown-for-documentation-writers/)
