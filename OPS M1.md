@@ -106,3 +106,30 @@ Displayed :
 The Markdown syntax for an inline link consists of the [link text] portion, which is the text that will be hyperlinked, followed by the (file-name.md) portion, which is the URL or file name that’s being linked to.
 
 ![Link](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/link1.png?raw=true)
+
+### **Escape**
+
+Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
+You escape characters in Markdown using a backslash before the character, with no space in between
+
+Your text should look like this:
+
+![Escape](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Escape.png?raw=true)
+
+## **Markdown Cheatsheets**
+
+This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for basic syntax and extended syntax.
+
+### **Basic Syntax**
+
+These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+![Basic Syntax](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Basic%20Syntax.png?raw=true)
+
+### **Extended Syntax**
+
+These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
+
+![Extended Syntax 1](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Extended%20Syntax%201.png?raw=true)
+
+![Extended Syntax 2](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Extended%20Syntax%202.png?raw=true)
