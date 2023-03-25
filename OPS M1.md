@@ -1,5 +1,14 @@
 # **What is Markdown ?**
 
+You might be wondering, what the heck is Markdown anyway?
+Markdown is a lightweight markup language. It allows you to style a digital text document using typical formatting techniques: for example, headings, emphasis, lists, images, and links. Markdown files are stored as .md or .markdown. Also, Markdown can be optionally converted into XHTML or HTML to display nicely in a browser.
+
+Some of the many uses of Markdown are readme files, writing messages in online discussion forums, creating rich text using a plain text editor, emails, and technical documentation. Popular sites that use Markdown include GitHub, Trello, Reddit, SourceForge, and StackExchange, among many others.
+
+You, too, may want to use Markdown for formatting your documentation. It can be hosted by Static Site Generators such as Hugo which are linked with a text editor, or you can use an end-to-end proprietary solution to produce your Markdown files.
+
+This light-weight markup language is a compromise between restrictive WYSIWYG editors, and formatting content directly in HTML. Writers can have as much control over the presentation of their information without resorting to full HTML tagging. At the same time, Markdown parsers also support dropping in blocks of HTML code that add to Markdown’s limited syntax, in case you want to achieve a more complex design.
+
 ## **What is Markdown Language ?**
 
 Markdown is a lightweight markup language that you can use to add formatting elements to plain text text documents. Created by John Gruber in 2004, Markdown is now one of the world’s most popular markup languages.
