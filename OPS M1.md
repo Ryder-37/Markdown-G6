@@ -22,7 +22,78 @@ Markdown can be used for everything. People use it to create websites, documents
 
 With Markdown, you write text in a plain text editor (such as vi or Emacs), inserting special characters to create headers, boldface, bullets, and so on. For example, the following example shows a simple technical document formatted with Markdown: ## bash and ksh **bash** closely resembles an older shell named **ksh**.
 
-### **Steps to create Markdown File using text editors**
+### **Markdown Basics**
 
-1. Create a Markdown file using a text editor or a dedicated Markdown application. The file should have an .md or .markdown extension.
-2. 
+The following sections describe the basics of authoring in Markdown.
+
+### **Headings**
+
+To create a heading, use a hash mark (#) at the beginning of a line:
+
+![Headings](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Screenshot%202023-03-25%20193817.png?raw=true)
+
+### **Basic Texts**
+
+A paragraph requires no special syntax in Markdown.
+
+To format text as bold, you enclose it in two asterisks. To format text as italic, you enclose it in a single asterisk:
+
+![Basic Text](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/Basic%20Text.png?raw=true)
+
+To ignore Markdown formatting characters, use \ before the character:
+
+![Ignore](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/ignore.png?raw=true)
+
+### **Paragraphs**
+
+When writing your Markdown body text, you’ll likely want to split your information up into paragraphs (with a noticeable gap between each paragraph).
+
+Paragraphs are divided by a blank line (a line containing no characters) between consecutive paragraphs.
+
+### **Line Break**
+
+Sometimes, you’ll want to split your information up by inserting a new line, with less space than you’d get from formatting as a paragraph. This is called a line break.
+
+To insert a line break into your Markdown file, finish your line with at least two spaces and press return. This will render a new line for your text.
+
+### **Numbered lists and Bulleted lists**
+
+To create numbered lists, begin a line with 1. or 1), but don’t use both formats within the same list. You don’t need to specify the numbers. GitHub does that for you.
+
+![list](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/list%20.png?raw=true)
+
+To create bullet lists, begin a line with * or - or +, but don’t mix the formats within the same list. (Do not mix bullet formats, such as * and +, within the same document.)
+
+![List 2](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/List%202.png?raw=true)
+
+### **Images**
+
+A picture is worth a thousand words, as they say. Inserting an image into your Markdown file is similar to the formatting for links.
+
+Begin your image formatting with an exclamation mark. Next, use square brackets to wrap your image alt text, next to parentheses containing the URL for your image. Ensure there are no spaces between the exclamation mark, square brackets, or parentheses.
+
+Your text will look like this:
+
+![Img](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/img.png?raw=true)
+
+When your Markdown file is rendered to HTML, the image will be embedded directly into the body text.
+
+### **Blockquotes**
+
+Sometimes in Markdown, we will want to reference an external source using quotation marks. This is called a blockquote. You represent any blockquote by preceding the first line of the block quote with a greater-than sign or angle bracket (>). Gruber recommends inserting the angle bracket before every line of your blockquote.
+
+### **Tables**
+
+Tables are not part of the core Markdown specification, but Adobe supports them to an extent. Markdown doesn’t support multiple lines lists in cells. Best practice is to avoid using multiple lines in tables. You can create tables by using the pipe (|) character to delineate columns and rows. Hyphens create each column’s header, while pipes separate each column. Include a blank line before your table so it’s rendered correctly.
+
+![T1](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/T1.png?raw=true)
+
+Displayed :
+
+![T2](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/T2.png?raw=true)
+
+### **Links**
+
+The Markdown syntax for an inline link consists of the [link text] portion, which is the text that will be hyperlinked, followed by the (file-name.md) portion, which is the URL or file name that’s being linked to.
+
+![Link](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/link1.png?raw=true)
