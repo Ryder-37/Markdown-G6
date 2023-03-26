@@ -107,6 +107,8 @@ The Markdown syntax for an inline link consists of the [link text] portion, whic
 
 ![Link](https://github.com/Ryder-37/Markdown-G6/blob/main/Markdown%20Images/link1.png?raw=true)
 
+
+
 ### **Escape**
 
 Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
