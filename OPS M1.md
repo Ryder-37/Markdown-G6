@@ -113,6 +113,8 @@ Markdown supports the placement of code blocks both inline in a sentence and as 
 
 Use back ticks (`) to create inline code styles within a paragraph. To create a specific multi-line code block, add three back ticks (```) before and after the code block (called a “fenced code block” in Markdown and just a “code block” component in AEM). For fenced code blocks, add the code language after the first set of back ticks so that Markdown correctly highlights code syntax.
 
+
+
 ### **Escape**
 
 Often in Markdown, you will need to include characters in your text (for example, and asterisk) that may be part of the Markdown syntax. You need to “escape” these characters so your Markdown application doesn’t read these characters as formatting.
